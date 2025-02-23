@@ -1,3 +1,6 @@
-p{
+p,ul, li{
 color: red;
+}
+#titleOne{
+    color: greenyellow;
 }

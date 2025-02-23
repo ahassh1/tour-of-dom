@@ -23,19 +23,31 @@
                 </li>
                 <li>polash1234</li>
              </ul>
+
+             <section>
+                <ul>
+                    <li id="titleOne">
+                    dom de re baba
+                    </li>
+                    <li class="itemOne">
+                        he he this is me
+                    </li>
+                </ul>
+             </section>
     </main>
         
     <script src="js/dom.js"></script>
     <script>
-       const student = {
-        name : "polash";
-        ID : 23;
-        study: function (time){
-            console.log(time, study korte hobe)
-        }
-       }
+      
        const liColection = document.getElementsByTagName('li');
-       console.log(liColection)
+    //    console.log(liColection);
+    for(const li of liColection){
+        console.log(li.innerText);
+    }
+    const allHeading = document.getElementsByTagName('h1');
+    for(const h1 of allHeading){
+        console.log(h1);
+    }
     </script>
 </body>
 </html>
